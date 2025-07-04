@@ -373,7 +373,7 @@
     "min_fd_versions": [],
     "min_jito_versions": [],
     "planned_testnet_order": null,
-    "testnet_activation_epoch": null,
+    "testnet_activation_epoch": 804,
     "devnet_activation_epoch": null,
     "comms_required": null,
     "mainnet_activation_epoch": null,
@@ -642,9 +642,9 @@
     "min_jito_versions": [],
     "planned_testnet_order": null,
     "testnet_activation_epoch": 798,
-    "devnet_activation_epoch": null,
+    "devnet_activation_epoch": 903,
     "comms_required": null,
-    "mainnet_activation_epoch": null,
+    "mainnet_activation_epoch": 812,
     "description": null
   },
   {
@@ -1005,7 +1005,7 @@
     ],
     "min_jito_versions": [],
     "planned_testnet_order": null,
-    "testnet_activation_epoch": null,
+    "testnet_activation_epoch": 805,
     "devnet_activation_epoch": null,
     "comms_required": null,
     "mainnet_activation_epoch": null,
@@ -1056,6 +1056,76 @@
     "min_jito_versions": [
       "v2.2.0"
     ],
+    "planned_testnet_order": null,
+    "testnet_activation_epoch": null,
+    "devnet_activation_epoch": null,
+    "comms_required": null,
+    "mainnet_activation_epoch": null,
+    "description": ""
+  },
+  {
+    "key": "2aQJYqER2aKyb3cZw22v4SL2xMX7vwXBRWfvS4pTrtED",
+    "title": "Feature Gate: Enable loader-v4",
+    "simd_link": [
+      ""
+    ],
+    "simds": [
+      "0167"
+    ],
+    "owners": [],
+    "min_agave_versions": [
+      "v2.2.13"
+    ],
+    "min_fd_versions": [
+      "v0.503.20214"
+    ],
+    "min_jito_versions": [
+      "v2.2.13"
+    ],
+    "planned_testnet_order": null,
+    "testnet_activation_epoch": 803,
+    "devnet_activation_epoch": 904,
+    "comms_required": null,
+    "mainnet_activation_epoch": null,
+    "description": ""
+  },
+  {
+    "key": "5JsG4NWH8Jbrqdd8uL6BNwnyZK3dQSoieRXG5vmofj9y",
+    "title": "SIMD-0180: Use Vote Account Address To Key Leader Schedule",
+    "simd_link": [
+      "https://github.com/solana-foundation/solana-improvement-documents/blob/main/proposals/0180-vote-account-leader-schedule.md"
+    ],
+    "simds": [
+      "0180"
+    ],
+    "owners": [],
+    "min_agave_versions": [
+      "v2.3.0"
+    ],
+    "min_fd_versions": [],
+    "min_jito_versions": [],
+    "planned_testnet_order": null,
+    "testnet_activation_epoch": null,
+    "devnet_activation_epoch": null,
+    "comms_required": null,
+    "mainnet_activation_epoch": null,
+    "description": ""
+  },
+  {
+    "key": "bn2puAyxUx6JUabAxYdKdJ5QHbNNmKw8dCGuGCyRrFN",
+    "title": "Fix alt_bn128_multiplication input length",
+    "simd_link": [
+      "https://github.com/solana-foundation/solana-improvement-documents/blob/main/proposals/0222-fix-alt-bn128-multiplication-length-check.md"
+    ],
+    "simds": [
+      "0222"
+    ],
+    "owners": [],
+    "min_agave_versions": [
+      "v2.2.0"
+    ],
+    "min_fd_versions": [],
+    "min_jito_versions": [],
     "planned_testnet_order": null,
     "testnet_activation_epoch": null,
     "devnet_activation_epoch": null,
